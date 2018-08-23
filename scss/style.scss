@@ -2,6 +2,7 @@
 @import "colors";
 @import "sizes";
 @import "table-sizes";
+@import "calc-fontsize";
 
 .groups{
     text-align:center;
@@ -44,12 +45,12 @@
 .info{
     color: $r1;
     @media(min-width: $small-screen){
-        font-size: 16px;
+        font-size: calc-fontsize($small-screen)
     }
     @media(min-width: $medium-screen){
-        font-size: 14px;
+        font-size: calc-fontsize($medium-screen)
     }
     @media(min-width: $large-screen){
-        font-size: 12px;
+        font-size: calc-fontsize($large-screen)
     }
 }

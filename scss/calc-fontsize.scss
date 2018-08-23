@@ -1,0 +1,3 @@
+@function calc-font-size($width){
+    @return $width/20;
+}

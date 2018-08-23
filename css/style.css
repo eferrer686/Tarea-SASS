@@ -56,17 +56,17 @@
 }
 @media (min-width: 500px) {
   .info {
-    font-size: 16px;
+    font-size: calc-fontsize(500px);
   }
 }
 @media (min-width: 800px) {
   .info {
-    font-size: 14px;
+    font-size: calc-fontsize(800px);
   }
 }
 @media (min-width: 1200px) {
   .info {
-    font-size: 12px;
+    font-size: calc-fontsize(1200px);
   }
 }
 
