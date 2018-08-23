@@ -1,0 +1,11 @@
+@import "mixins";
+
+.table-row-odd{
+    @include table-row-default;
+    background: white;
+}
+
+.table-row-even{
+    @include table-row-default;
+    background: green;
+}
