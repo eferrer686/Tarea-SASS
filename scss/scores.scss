@@ -1,0 +1,22 @@
+.scores{
+    .title{
+        @include important-text;
+        font-size: 24px;
+    }
+    .header{
+        @include important-text;
+        font-size: 20px;
+    }
+    .row-odd{
+        @include table-row-default;
+        color: $b1;
+        background: white;
+    }
+    .row-even{
+        @include table-row-default;
+        color: white;
+        background: $b1;
+    }
+
+
+}

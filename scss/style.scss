@@ -3,54 +3,7 @@
 @import "sizes";
 @import "table-sizes";
 @import "calc-fontsize";
-
-.groups{
-    text-align:center;
-    .calendar{
-        font-style:italic;
-    }
-    .final{
-        font-style:italic;
-    }
-}
-
-.scores{
-    .title{
-        @include important-text;
-        font-size: 24px;
-    }
-    .header{
-        @include important-text;
-        font-size: 20px;
-    }
-    .row-odd{
-        @include table-row-default;
-        color: $b1;
-        background: white;
-    }
-    .row-even{
-        @include table-row-default;
-        color: white;
-        background: $b1;
-    }
-
-
-}
-
-.diff-background{
-    background-image: linear-gradient(45, $y1, $y2);
-}
-
-
-.info{
-    color: $r1;
-    @media(min-width: $small-screen){
-        font-size: calc-fontsize($small-screen);
-    }
-    @media(min-width: $medium-screen){
-        font-size: calc-fontsize($medium-screen);
-    }
-    @media(min-width: $large-screen){
-        font-size: calc-fontsize($large-screen);
-    }
-}
+@import "groups";
+@import "scores";
+@import "diff-background";
+@import "info";
