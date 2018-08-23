@@ -17,9 +17,4 @@
         color: white;
         background: $b1;
     }
-    
-    @each $size, $width in $table-sizes{
-    .table-#{$size}{
-        width:$width;
-    }
 }
