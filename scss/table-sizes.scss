@@ -1,4 +1,4 @@
-$table-sizes: (small: 300px, medium: 600px, large: 900px);
+$table-sizes: (small: 700px, medium: 900px, large: 1100px);
 @each $size, $width in $table-sizes{
     .table-#{$size}{
         width:$width;
