@@ -23,12 +23,14 @@
 .scores .title {
   font-family: impact;
   font-weight: bold;
+  text-align: center;
   color: black;
   font-size: 24px;
 }
 .scores .header {
   font-family: impact;
   font-weight: bold;
+  text-align: center;
   color: black;
   font-size: 20px;
 }
@@ -56,17 +58,17 @@
 }
 @media (min-width: 500px) {
   .info {
-    font-size: calc-fontsize(500px);
+    font-size: 16.6666666667px;
   }
 }
 @media (min-width: 800px) {
   .info {
-    font-size: calc-fontsize(800px);
+    font-size: 26.6666666667px;
   }
 }
 @media (min-width: 1200px) {
   .info {
-    font-size: calc-fontsize(1200px);
+    font-size: 40px;
   }
 }
 
