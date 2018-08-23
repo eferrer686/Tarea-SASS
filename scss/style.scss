@@ -1,4 +1,5 @@
 @import "mixins";
+@import "colors";
 
 .table-row-odd{
     @include table-row-default;
