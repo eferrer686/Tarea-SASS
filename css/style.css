@@ -1,15 +1,40 @@
-.table-row-odd {
+.groups {
+  text-align: center;
+}
+.groups .calendar {
+  font-style: italic;
+}
+.groups .final {
+  font-style: italic;
+}
+
+.scores .title {
+  font-family: impact;
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
+}
+.scores .header {
+  font-family: impact;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
+.scores .row-odd {
   font-size: 16px;
   font-family: arial;
   color: white;
   background: white;
 }
-
-.table-row-even {
+.scores .row-even {
   font-size: 16px;
   font-family: arial;
   color: white;
-  background: green;
+  background: #66ccff;
+}
+
+.diff-backgroung {
+  background-image: linear-gradient(45, #ffff99, #e69900);
 }
 
 /*# sourceMappingURL=style.css.map */

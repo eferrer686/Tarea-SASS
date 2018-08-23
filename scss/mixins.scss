@@ -3,3 +3,9 @@
     font-family: arial;
     color: white;
 }
+
+@mixin important-text{
+        font-family: impact;
+        font-weight: bold;
+        color: black;
+}

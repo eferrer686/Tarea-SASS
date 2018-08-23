@@ -1,12 +1,35 @@
 @import "mixins";
 @import "colors";
 
-.table-row-odd{
-    @include table-row-default;
-    background: white;
+.groups{
+    text-align:center;
+    .calendar{
+        font-style:italic;
+    }
+    .final{
+        font-style:italic;
+    }
 }
 
-.table-row-even{
-    @include table-row-default;
-    background: green;
+.scores{
+    .title{
+        @include important-text;
+        font-size: 24px;
+    }
+    .header{
+        @include important-text;
+        font-size: 20px;
+    }
+    .row-odd{
+        @include table-row-default;
+        background: white;
+    }
+    .row-even{
+        @include table-row-default;
+        background: $b1;
+    }
+}
+
+.diff-backgroung{
+    background-image: linear-gradient(45, $y1, $y2);
 }
