@@ -1,6 +1,7 @@
 @import "mixins";
 @import "colors";
 @import "sizes";
+@import "table-sizes";
 
 .groups{
     text-align:center;
@@ -41,14 +42,14 @@
 
 
 .info{
-    color: #FFF;
+    color: $r1;
     @media(min-width: $small-screen){
         font-size: 16px;
     }
     @media(min-width: $medium-screen){
-        padding: 14px;
+        font-size: 14px;
     }
     @media(min-width: $large-screen){
-        padding: 12px;
+        font-size: 12px;
     }
 }

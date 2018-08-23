@@ -1,3 +1,15 @@
+.table-small {
+  width: 300px;
+}
+
+.table-medium {
+  width: 600px;
+}
+
+.table-large {
+  width: 900px;
+}
+
 .groups {
   text-align: center;
 }
@@ -40,7 +52,7 @@
 }
 
 .info {
-  color: #FFF;
+  color: #800000;
 }
 @media (min-width: 500px) {
   .info {
@@ -49,12 +61,12 @@
 }
 @media (min-width: 800px) {
   .info {
-    padding: 14px;
+    font-size: 14px;
   }
 }
 @media (min-width: 1200px) {
   .info {
-    padding: 12px;
+    font-size: 12px;
   }
 }
 
