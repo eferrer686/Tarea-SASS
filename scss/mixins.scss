@@ -1,0 +1,11 @@
+@mixin table-row-default{
+    font-size: 16px;
+    font-family: arial;
+    color: white;
+}
+
+@mixin important-text{
+        font-family: impact;
+        font-weight: bold;
+        color: black;
+}
