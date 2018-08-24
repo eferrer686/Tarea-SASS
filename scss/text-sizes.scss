@@ -1,4 +1,4 @@
-$text-sizes: (small: 14px, medium: 18px, large: 22px);
+$text-sizes: (small: 12px, medium: 16px, large: 20px);
 @each $size, $value in $text-sizes{
     .text-#{$size}{
         font-size: $value;
