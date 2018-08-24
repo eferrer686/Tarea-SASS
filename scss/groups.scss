@@ -1,23 +1,17 @@
 .groups{
     margin: 0 auto;
     text-align:center;
-    background-color: $b2;
+    width: 100%;
+    background-color: $y1;
     padding: 10px;
-    
+    color: darken($y2,10);
+    font-weight: bold;
+
     .calendar{
         font-style:italic;
     }
     .final{
         font-style:italic;
-    }
-    a{
-        color: $g1;
-    }
-    
-    table{
-        width:100%;
-        max-width:100%;
-        margin-bottom:1rem;
     }
     
     td{
