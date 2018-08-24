@@ -14,8 +14,10 @@
   margin: 0 auto;
   text-align: center;
   width: 100%;
-  background-color: #0077b3;
+  background-color: #ffff99;
   padding: 10px;
+  color: #b37700;
+  font-weight: bold;
 }
 .groups .calendar {
   font-style: italic;
@@ -28,12 +30,18 @@
   padding: 10px;
 }
 
+.scores {
+  padding-top: 10px;
+  width: 100%;
+  margin: 0 auto;
+}
 .scores .title {
   font-family: impact;
   font-weight: bold;
   text-align: center;
   color: black;
   font-size: 24px;
+  color: #0077b3;
 }
 .scores .header {
   font-family: impact;
@@ -41,42 +49,58 @@
   text-align: center;
   color: black;
   font-size: 20px;
+  color: #004467;
 }
 .scores .row-odd {
   font-size: 16px;
   font-family: arial;
   text-align: center;
-  color: #66ccff;
-  background: white;
+  color: #ffff99;
+  background: #800000;
+  font-weight: bold;
 }
 .scores .row-even {
   font-size: 16px;
   font-family: arial;
   text-align: center;
-  color: white;
-  background: #66ccff;
+  color: #ffff99;
+  background: #670000;
+  font-weight: bold;
+}
+.scores table {
+  margin: 0 auto;
+  width: 80%;
+}
+.scores tr {
+  margin: 0 auto;
 }
 
 .diff-background {
-  background-image: linear-gradient(45deg, #ffff99, #e69900);
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(45deg, #66ccff 25%, #4dc4ff 25%, #4dc4ff 50%, #66ccff 50%, #66ccff 75%, #4dc4ff 75%, #4dc4ff);
+  background-size: 80px 80px;
 }
 
 .info {
   color: #800000;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
 }
 @media (min-width: 500px) {
   .info {
-    font-size: 8.3333333333px;
+    font-size: 18px;
   }
 }
 @media (min-width: 800px) {
   .info {
-    font-size: 13.3333333333px;
+    font-size: 28.8px;
   }
 }
 @media (min-width: 1200px) {
   .info {
-    font-size: 20px;
+    font-size: 43.2px;
   }
 }
 

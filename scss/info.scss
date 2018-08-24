@@ -1,5 +1,11 @@
 .info{
+    
     color: $r1;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+
+
     @media(min-width: $small-screen){
         font-size: calc-fontsize($small-screen);
     }
